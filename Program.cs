@@ -31,8 +31,8 @@ namespace Aula_20_11_2020
             FUNÇÃO/MÉTODO
             */
 
-            string [] nomes      = new string[3];
-            float  [] mediaAluno = new float[3];
+            string [] nomes      = new string[10];
+            float  [] mediaAluno = new float[10];
             float  [] notas      = new float[4];
 
             //LAÇO CONTADO
@@ -42,7 +42,7 @@ namespace Aula_20_11_2020
             // i = i + 1
             // 1 += 1:
 
-            for(int i = 0; i < 3; i ++){
+            for(int i = 0; i < 10; i ++){
                 Console.Write("Digite um nome: ");
                 nomes[i] = Console.ReadLine();
 
